@@ -22,7 +22,7 @@ SET verbose=%~5
 robocopy "%execDir%" "%backupDir%" /mir
 robocopy "%updateDir%" "%execDir%" /mir
 "%execDir%\\%runner%"
-"%updateDir%\\${this.options.executable}"
+"%execDir%\\${this.options.executable}.exe"
 `);
   }
 
